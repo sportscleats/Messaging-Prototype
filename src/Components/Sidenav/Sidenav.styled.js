@@ -27,11 +27,17 @@ export const StyledNav = styled.nav`
     max-height: 8px;
 }
 
+.chevron {
+    min-height: 16px;
+}
+
 
 .side-nav-sub {
     font-weight: 600;
     height: 40px; 
     border-top: 1px solid #ddd;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .top {

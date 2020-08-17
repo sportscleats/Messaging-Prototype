@@ -25,6 +25,8 @@ import account from './sideNav-icons/account.svg'
 import notificationSet from './sideNav-icons/notification-settings.svg'
 import messages from './sideNav-icons/messages.svg'
 
+import chevron from './sideNav-icons/Chevron-down.svg'
+
 
 
 const buyItems = [
@@ -105,7 +107,9 @@ const Sidenav = ({ open }) => {
     return (
         <StyledNav open={open}>
            
-            <div className="side-nav-item side-nav-sub top">BUY</div>
+            <div className="side-nav-item side-nav-sub top">BUY
+                <div><img className="side-nav-title chevron" src={chevron}/></div>
+            </div>
             
                 {buyItems.map((item) => (
                 <div className="side-nav-item">
@@ -114,7 +118,9 @@ const Sidenav = ({ open }) => {
                 </div>
                 ))}
 
-            <div className="side-nav-item side-nav-sub top">SELL</div>
+            <div className="side-nav-item side-nav-sub top">SELL
+                <div><img className="side-nav-title chevron" src={chevron}/></div>
+            </div>
 
                 {sellItems.map((item) => (
                 <div className="side-nav-item">
@@ -123,7 +129,9 @@ const Sidenav = ({ open }) => {
                     </div>
                 ))}
 
-            <div className="side-nav-item side-nav-sub top">ACCT</div>
+            <div className="side-nav-item side-nav-sub top">ACCT
+                <div><img className="side-nav-title chevron" src={chevron}/></div>
+            </div>
 
                 {acctItems.map((item) => (
                 <div className="side-nav-item">
