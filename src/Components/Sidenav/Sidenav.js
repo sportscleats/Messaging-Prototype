@@ -105,7 +105,7 @@ const Sidenav = ({ open }) => {
     return (
         <StyledNav open={open}>
            
-            <div className="side-nav-item side-nav-sub">BUY</div>
+            <div className="side-nav-item side-nav-sub top">BUY</div>
             
                 {buyItems.map((item) => (
                 <div className="side-nav-item">
