@@ -11,10 +11,15 @@ export const StyledContainerContact = styled.nav`
     padding: ${({ open }) => open ? '0px' : '16px'};
 
 .content {
-    transition: transform .9s ease-in, opacity .4s ease-in;
-    transition-delay: ${({ open }) => open ? '.2s' : '.4s'};
+    transition: transform .4s ease-in, opacity .4s ease-in;
+    transition-delay: ${({ open }) => open ? '.2s' : '.2s'};
     opacity: ${({ open }) => open ? '0' : '1'};
-    transform: ${({ open }) => open ? 'translateY(24px)' : 'translateY(0px)'};
+    transform: ${({ open }) => open ? 'translateY(8px)' : 'translateY(0px)'};
+}
+.contact-container-header {
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
 }
 }
 `;
