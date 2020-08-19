@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { bool } from 'prop-types';
 import { StyledNav } from "./Sidenav.styled";
 
@@ -102,10 +102,15 @@ const acctItems = [
     },
     ]
 
-
-const Sidenav = ({ open }) => {
+//beginish
+const Sidenav = () => {
+    const [open, setOpen] = useState(false);
     return (
-        <StyledNav open={open}>
+        <div className="menu-flex">
+        
+        <Arrow open={open} setOpen={setOpen} />
+        
+        <StyledNav open={open} setOpen={setOpen}>
            
             <div className="side-nav-item side-nav-sub top">BUY
                 <div><img className="side-nav-title chevron" src={chevron}/></div>
@@ -141,6 +146,7 @@ const Sidenav = ({ open }) => {
                 ))}
 
         </StyledNav>
+        </div>
     );
 }
 

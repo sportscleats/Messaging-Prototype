@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { StyledMessageNav } from "./MessageNav.styled";
+import InfoIcon from '../InfoIcon/InfoIcon'
+
 
 import phone from './MessageNav-icons/Phone.svg'
-import info from './MessageNav-icons/Info -  Tool tip.svg'
+// import info from './MessageNav-icons/Info -  Tool tip.svg'
 
 
 const MessageNav = () => {
@@ -18,9 +20,10 @@ const MessageNav = () => {
             </div>
             <div className="center-icon">
                 <div className="icon"><img src={phone}/></div>
-                <div className="icon info selected"><img src={info}/></div>
+                {/* <div className="icon info selected"><img src={info}/></div> */}
+                <InfoIcon />
             </div>
-            </div>
+        </div>
 
     </StyledMessageNav>
     )

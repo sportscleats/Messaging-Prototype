@@ -37,9 +37,6 @@ export const GlobalStyles = createGlobalStyle`
     list-style: none;
   }
 
-  .right-side {
-    width: 100%;
-  }
 
   .icon {
     background-color: #EEEEEE;
@@ -51,19 +48,14 @@ export const GlobalStyles = createGlobalStyle`
     align-items: center;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    fill: #6C6C6C;
+    transition: transform .3s ease-in, opacity .2s ease-in;
 }
 
 .icon:hover {
-  background-color: white;
+  opacity: .8;
   box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
   transform: translateY(-2px);
-}
-
-.selected:hover {
-  background-color: #3E7AAB;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
-  transform: translateY(-2px);
+  fill: black;
 }
   
 `;
