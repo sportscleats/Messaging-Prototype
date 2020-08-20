@@ -78,7 +78,12 @@ export const StyledContainerContact = styled.nav`
 .notes {
     box-size: border-box;
     padding: 32px 8px;
-    ${'' /* width: 100%; */}
+    opacity: 0;
+    animation: drawer-animation;
+        animation-duration: .4s;
+        animation-delay: 0.2s;
+        animation-fill-mode: forwards;
+        animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .note {
@@ -146,6 +151,12 @@ export const StyledContainerContact = styled.nav`
 .about {
     box-size: border-box;
     padding: 16px 8px;
+    animation: drawer-animation;
+    opacity: 0;
+        animation-duration: .4s;
+        animation-delay: 0.2s;
+        animation-fill-mode: forwards;
+        animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .about-info {
@@ -235,6 +246,18 @@ export const StyledContainerContact = styled.nav`
 
 .hide {
   display: none;
+}
+
+
+@keyframes drawer-animation {
+  0% {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 `;
