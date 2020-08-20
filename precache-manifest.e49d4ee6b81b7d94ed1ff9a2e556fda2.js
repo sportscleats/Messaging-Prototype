@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "71eb75e2807e24d0f102fce7464294f2",
+    "revision": "bddab3d483388565c67a6095043204c5",
     "url": "/menu/index.html"
   },
   {
-    "revision": "eb89449d62f8952f971a",
-    "url": "/menu/static/js/2.28ac45c9.chunk.js"
+    "revision": "86b369abfccd8e6cd993",
+    "url": "/menu/static/js/2.4cef15b7.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/menu/static/js/2.28ac45c9.chunk.js.LICENSE.txt"
+    "url": "/menu/static/js/2.4cef15b7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "46e39495a1d54a8cf460",
-    "url": "/menu/static/js/main.1e4bcb0a.chunk.js"
+    "revision": "12a055d2a0226bd4fbf9",
+    "url": "/menu/static/js/main.d39ffa08.chunk.js"
   },
   {
     "revision": "c93c4944bde666294912",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5d5ace652f3fbe4501cea92f5b1d401b",
     "url": "/menu/static/media/Chevron-down.5d5ace65.svg"
-  },
-  {
-    "revision": "a29b3a73f6f6932d14029d1e8b31252a",
-    "url": "/menu/static/media/Info -  Tool tip.a29b3a73.svg"
   },
   {
     "revision": "80d8fcc03339b44f32b7adc14b9dc537",
