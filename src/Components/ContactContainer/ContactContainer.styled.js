@@ -5,7 +5,7 @@ export const StyledContainerContact = styled.nav`
     height: 100vh;
     transition: transform .9s ease-in-out, width .4s;
     transition-delay: ${({ open }) => open ? '.05s' : '-.2s'};
-    width: ${({ open }) => open ? '0px' : '480px'};
+    width: ${({ open }) => open ? '0px' : '400px'};
     opacity: ${({ open }) => open ? '0' : '1'};
     box-sizing: border-box;
     padding: ${({ open }) => open ? '0px' : '16px'};
@@ -44,7 +44,7 @@ export const StyledContainerContact = styled.nav`
 
 .toggle-container {
   display: flex;
-  width: 400px;
+  width: 368px;
   border-bottom: 1px solid black;
   justify-content: space-around;
   align-items: center;
