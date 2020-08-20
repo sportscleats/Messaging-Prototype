@@ -142,6 +142,97 @@ export const StyledContainerContact = styled.nav`
   flex-direction: column;
 }
 
+/********** About Section *************/
+.about {
+    box-size: border-box;
+    padding: 16px 8px;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-row {
+  display: flex;
+  ${'' /* width: 22vw; */}
+  margin-top: 16px;
+}
+
+.about-line {
+  content: "";
+  flex-grow: 1;
+  border-bottom: 2px dotted #d8d8d8;
+  min-width: 50px;
+  margin: 0px 8px;
+}
+
+.about-section {
+  margin-top: 40px;
+}
+
+.about-item {
+  color: #6c6c6c
+}
+
+/**** Activity Feed *****/
+
+.activity-block {
+  display: flex;
+}
+
+
+
+.feed-date {
+  font-size: 11px;
+}
+
+.activity-item {
+  border: 1px solid black;
+  border-radius: 5px 0px 0px 5px;
+  box-sizing: border-box;
+  padding: 8px 12px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.act-right {
+  margin-left: -1px;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.activity-container {
+  display: flex;
+  width: 100%;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #D8D8D8;
+}
+
+.activity-property {
+  font-size: 11px;
+  text-align: right;
+}
+
+.activity-line {
+  content: "";
+    flex-grow: 1;
+    position: absolute;
+    border-top: 1px solid #d8d8d8;
+
+}
+
+.activity-right-block {
+  margin-left: auto;
+}
+
+.act-property {
+  width: 60px;
+  height: 38px;
+  border-radius: 5px;
+  margin-bottom: 4px;
+}
+
 .hide {
   display: none;
 }
