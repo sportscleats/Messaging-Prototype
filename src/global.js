@@ -27,6 +27,11 @@ export const GlobalStyles = createGlobalStyle`
     position: fixed;
     font-size: 13px;
   }
+
+  h3, h2 {
+    font-weight: 600;
+    margin: 0;
+  }
   
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -56,6 +61,23 @@ export const GlobalStyles = createGlobalStyle`
   box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
   transform: translateY(-2px);
   fill: black;
+}
+
+/* Global helpers */
+
+.margin-b {
+    margin-bottom: 8px;
+}
+
+.badge {
+  background: #eee;
+  border-radius: 2.5px;
+  padding: 4px;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #6C6C6C;
+  margin-top: 4px;
 }
   
 `;

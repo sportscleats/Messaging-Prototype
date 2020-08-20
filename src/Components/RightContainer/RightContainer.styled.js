@@ -40,9 +40,10 @@ width: 100%;
 
 
 .avatar {
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
     background: #ddd;
+    border: 1px solid #ddd;
     border-radius: 100px;
     margin-right: 8px;
 }

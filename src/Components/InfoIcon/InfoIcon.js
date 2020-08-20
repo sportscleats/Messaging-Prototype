@@ -2,8 +2,6 @@ import React from 'react';
 import { StyledInfo } from "./InfoIcon.styled";
 import { bool, func } from 'prop-types';
 
-import info from './Info -  Tool tip.svg'
-
 
 const InfoIcon = ({ open, setOpen }) => {
     return (

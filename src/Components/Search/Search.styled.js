@@ -30,6 +30,7 @@ export const StyledSearch = styled.nav`
 .filter:hover {
     background: #eee;
     border-radius: 100px;
+    cursor: pointer;
 }
 
 .search-input {

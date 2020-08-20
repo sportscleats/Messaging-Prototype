@@ -5,8 +5,6 @@ export { default as Search } from "./Search";
 export { default as LeftContainer } from "./LeftContainer";
 export { default as MessageContainer } from "./MessageContainer";
 export { default as ContactContainer } from "./ContactContainer";
-export { default as ToggleSlide } from "./ToggleSlide";
 export { default as RightContainer } from "./RightContainer";
 export { default as Arrow } from "./Arrow";
 export { default as InfoIcon } from "./InfoIcon";
-export { default as MessageNav } from "./MessageNav";

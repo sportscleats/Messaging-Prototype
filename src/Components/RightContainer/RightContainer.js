@@ -15,9 +15,7 @@ const RightContainer = () => {
 
     {/* Message nav */}
     <div className="messagenav-container">
-            <div className="avatar">
-                {/* <img className="avatar" src=""/> */}
-            </div>
+            <img src="https://images.crexi.com/users/77872/c1da142587284cf3a18fb696aeb7dc66_164x164.jpg" className="avatar margin-b" />
             <div className="name-property">
                 <h3 clasNames="messagenav-name">Gillian Vanderbilt</h3>
                 <h3 className="center-prop">7-11 on 785 Main St. Grand Rapids MI </h3>
