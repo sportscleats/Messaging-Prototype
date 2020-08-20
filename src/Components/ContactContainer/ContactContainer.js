@@ -14,6 +14,9 @@ const ContactContainer = ({ open }) => {
 
     <div className="right-container">
         <div className="content">
+
+            {/* Top right */}
+
             <div class="top-right">
                 <img src="https://images.crexi.com/users/77872/c1da142587284cf3a18fb696aeb7dc66_164x164.jpg" className="contact-avatar margin-b" />
                 <h2 className="right-name margin-b">Gillian Vanderbilt</h2>
@@ -47,7 +50,18 @@ const ContactContainer = ({ open }) => {
 
                 {/* Notes Content */}
                 <div className={isOpen ? "notes hide" : "notes"}>
-                notes stuff
+                    <div className="note-container">
+                        <div className="top note">Today 9:35 AM by <b>Jon Fletcher</b></div>
+                        <div className="note-box">
+                            <div className="actual-note">Had a call with Gillian last week. She sounded very interested in moving forward with 7-11</div>
+                        </div>
+                        <div className="bottom-note note">Posted on <b>7-11</b></div>
+                    </div>
+                    
+                    <div className="note-input-section">
+                        <textarea className="note-textarea" disabled="disabled" type="text" name="sentence" placeholder="Type your message here..."></textarea>
+                        <button className="note-button">Post to Notes</button>
+                    </div>
                 </div>
         
         </div>

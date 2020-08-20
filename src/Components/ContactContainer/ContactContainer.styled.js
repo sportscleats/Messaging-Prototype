@@ -73,12 +73,77 @@ export const StyledContainerContact = styled.nav`
 
 }
 
-.notes {
+/********** Notes *************/
 
+.notes {
+    box-size: border-box;
+    padding: 32px 8px;
+    ${'' /* width: 100%; */}
+}
+
+.note {
+  font-size: 11px;
+  color: #6C6C6C;
+}
+
+.actual-note {
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+.note-box {
+  box-sizing: border-box;
+  padding: 16px;
+  border: 1px solid #D8D8D8;
+  border-radius: 5px;
+  margin: 8px 0;
+}
+
+.bottom-note {
+  text-align: right;
+}
+
+.note-textarea {
+    height: 72px;
+    outline:none;
+    border: 1px solid #9C9C9C;
+    resize: none;
+    font-family: "Proxima Nova";
+    box-sizing: border-box;
+    padding: 12px 12px;
+    border-radius: 5px;
+    ${'' /* width: 21vw; */}
+    margin-bottom: 16px;
+    margin-top: 38vh;
+}
+
+.note-textarea::placeholder {
+  color: #9C9C9C;
+  font-family: "Proxima Nova";
+}
+
+.note-button {
+  padding: 12px 24px;
+  border: none;
+  background: rgba(0, 119, 219, 0.48);
+  border-radius: 5px;
+  color: white;
+  margin-left: auto;
+  cursor: not-allowed;
+}
+
+.note-button:active {
+  background-color: rgba(0, 119, 219, 0.48);
+  transform: scale(1);
+}
+
+.note-input-section {
+  display: flex;
+  flex-direction: column;
 }
 
 .hide {
-    display: none;
+  display: none;
 }
 
 `;
